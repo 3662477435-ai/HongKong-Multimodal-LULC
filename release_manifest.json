@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "repository": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC",
+  "release_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0",
+  "original_archive_bytes": 6080512336,
+  "archives": [
+    {
+      "file": "01_code_docs_source_tables.zip",
+      "bytes": 4705013,
+      "sha256": "fa0c29f2d3ae7db570830db33c39dbf9fd0952f44b76389c2b193172d7d8b804",
+      "parts": [
+        {
+          "file": "01_code_docs_source_tables.zip",
+          "bytes": 4705013,
+          "sha256": "fa0c29f2d3ae7db570830db33c39dbf9fd0952f44b76389c2b193172d7d8b804"
+        }
+      ]
+    },
+    {
+      "file": "02_selected_model_checkpoints.zip",
+      "bytes": 3197087401,
+      "sha256": "20180a0b5536dc1b79b8d3dbb6df65f581cf842465d9beee5d464f6c23522d04",
+      "parts": [
+        {
+          "file": "02_selected_model_checkpoints.zip.part001",
+          "bytes": 1610612736,
+          "sha256": "87481bd719dd177af1121a37e69253cd55c4190e7ab8a38ee7e2d2a4b9c5b100"
+        },
+        {
+          "file": "02_selected_model_checkpoints.zip.part002",
+          "bytes": 1586474665,
+          "sha256": "1fcd71cc44ea8f20ed6a53ee44c34333a77f30208c246affc462b6cb24bd960d"
+        }
+      ]
+    },
+    {
+      "file": "03_open_provider_inputs_and_splits.zip",
+      "bytes": 2608711155,
+      "sha256": "e611cf0f91f76ddcfee11f720ff7791d4181f2aca31e954e0fba373ffacf0657",
+      "parts": [
+        {
+          "file": "03_open_provider_inputs_and_splits.zip.part001",
+          "bytes": 1610612736,
+          "sha256": "67c852455c90361a24bfa23c40d9a408de391e28a8269ed529f6dc0aa99b531c"
+        },
+        {
+          "file": "03_open_provider_inputs_and_splits.zip.part002",
+          "bytes": 998098419,
+          "sha256": "08907fc477ba8f1556b4a3de6f80fbc97e9a2724a91897bbe9c863542e0c237c"
+        }
+      ]
+    },
+    {
+      "file": "04_prediction_products_and_final_figures.zip",
+      "bytes": 270008767,
+      "sha256": "d0456890881bd49c397f8ba5bd9fea25c8fa974499e583b807ced3252c1bf6e6",
+      "parts": [
+        {
+          "file": "04_prediction_products_and_final_figures.zip",
+          "bytes": 270008767,
+          "sha256": "d0456890881bd49c397f8ba5bd9fea25c8fa974499e583b807ced3252c1bf6e6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "title": "Urban-context residual learning for multimodal land use/land cover mapping in high-density mountainous coastal cities: data, code and trained models",
-  "version": "1.0.0-draft",
+  "version": "1.0.0",
   "publication_date": "2026-11-06",
   "creators": [
     {
@@ -26,12 +26,13 @@
   ],
   "doi": null,
   "repository_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC",
-  "deposit_url": null,
+  "deposit_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0",
   "license": "CC-BY-4.0",
-  "status": "code_public_data_deposit_pending",
+  "status": "github_release_prepared_pending_upload",
   "rights_note": "Author approved MIT / CC BY 4.0 on 2026-11-06. No relicensing of third-party data or pretrained components; see LICENSE_STATUS.md and THIRD_PARTY_NOTICES.md.",
-  "deposit_platform": "Figshare",
+  "deposit_platform": "GitHub Releases",
   "github_account": "3662477435-ai",
   "code_license": "MIT",
-  "license_scope": "CC BY 4.0 applies only to original model contributions and results; original code is MIT; third-party components retain their terms."
+  "license_scope": "CC BY 4.0 applies only to original model contributions and results; original code is MIT; third-party components retain their terms.",
+  "figshare_status": "unpublished_draft_publication_failed"
 }

@@ -4,10 +4,25 @@ Research assets for **Urban-context residual learning for multimodal land use/la
 
 **Authors:** Yufeng Liu — Faculty of Geographical Science, Beijing Normal University; Hongsheng Zhang — Department of Geography, The University of Hong Kong.
 
-**Code repository: https://github.com/3662477435-ai/HongKong-Multimodal-LULC . The data/model deposit is not yet published; no DOI has been assigned.**
+**Code repository: https://github.com/3662477435-ai/HongKong-Multimodal-LULC**
 
-For full reproduction, download and extract all four Figshare archives into one directory when the deposit is published. This Git repository contains code, documentation and registries, not the multi-gigabyte inputs and checkpoints. `verify` expects the complete extracted deposit, not a code-only Git clone.
-The authoritative manuscript is the author's `最终/GISscience` submission directory. Original manuscripts and correspondence are not bundled into this public draft.
+## Download data, model weights and final results
+
+Use the same repository's [Release v1.0.0](https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0) for the large files.
+See [GITHUB_RELEASE.md](GITHUB_RELEASE.md) for archive contents, checksums,
+automatic download/merge/extraction and licensing. Publication is complete
+only when the release and its attachments are publicly accessible.
+The two large ZIP archives are distributed as numbered parts under 2 GiB.
+GitHub's green Code / Download ZIP button downloads source only, not the data.
+
+```text
+python scripts/download_research_assets.py --output research_package
+```
+
+`verify` expects the complete extracted research package, not a code-only clone.
+Two third-party input rasters are withheld pending redistribution permission;
+see DATA_ACCESS.md. No DOI has been assigned. The Figshare record is an
+unpublished draft and is not the public download route.
 
 ## Contents
 
@@ -71,4 +86,8 @@ The final manuscript Table 1 does not explicitly list the RGB input present in f
 
 ## Publication
 
-Planned: a public GitHub code repository linked to a Figshare dataset/model deposit. Large binary files are separated from the Git source bundle. `metadata/record_draft.json` contains verified author/title metadata and approved license scopes and deliberately empty account and DOI fields. Supply actual identifiers only after successful deposit. See `PUBLISHING.md` for remaining steps.
+Code and documentation are maintained in this GitHub repository. Data,
+checkpoints and output archives are distributed through the same repository's
+[Release v1.0.0](https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0); use its public file list to confirm availability.
+No DOI or successful Figshare publication is claimed. See GITHUB_RELEASE.md
+for download and reproduction instructions.
