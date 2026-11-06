@@ -1,5 +1,6 @@
 cff-version: 1.2.0
-message: Draft metadata only. Cite the actual archived version and DOI once published.
+message: If you use these research assets, cite this tagged GitHub release. No DOI
+  has been assigned.
 title: 'Urban-context residual learning for multimodal land use/land cover mapping
   in high-density mountainous coastal cities: data, code and trained models'
 authors:
@@ -10,4 +11,6 @@ authors:
 - family-names: Zhang
   given-names: Hongsheng
   affiliation: Department of Geography, The University of Hong Kong, Hong Kong, China
-version: 1.0.0-draft
+version: 1.0.0
+url: https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0
+date-released: '2026-11-06'

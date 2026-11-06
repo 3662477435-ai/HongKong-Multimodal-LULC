@@ -28,11 +28,12 @@
   "repository_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC",
   "deposit_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0",
   "license": "CC-BY-4.0",
-  "status": "github_release_prepared_pending_upload",
+  "status": "published_github_release",
   "rights_note": "Author approved MIT / CC BY 4.0 on 2026-11-06. No relicensing of third-party data or pretrained components; see LICENSE_STATUS.md and THIRD_PARTY_NOTICES.md.",
   "deposit_platform": "GitHub Releases",
   "github_account": "3662477435-ai",
   "code_license": "MIT",
   "license_scope": "CC BY 4.0 applies only to original model contributions and results; original code is MIT; third-party components retain their terms.",
-  "figshare_status": "unpublished_draft_publication_failed"
+  "figshare_status": "unpublished_draft_publication_failed",
+  "publication_verified": true
 }

@@ -10,8 +10,8 @@ Research assets for **Urban-context residual learning for multimodal land use/la
 
 Use the same repository's [Release v1.0.0](https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0) for the large files.
 See [GITHUB_RELEASE.md](GITHUB_RELEASE.md) for archive contents, checksums,
-automatic download/merge/extraction and licensing. Publication is complete
-only when the release and its attachments are publicly accessible.
+automatic download/merge/extraction and licensing. Release v1.0.0 is publicly accessible, with ten uploaded attachments.
+All ten server-reported SHA-256 digests were checked against the local files.
 The two large ZIP archives are distributed as numbered parts under 2 GiB.
 GitHub's green Code / Download ZIP button downloads source only, not the data.
 

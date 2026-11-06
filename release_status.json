@@ -1,5 +1,5 @@
 {
-  "status": "github_release_prepared_pending_upload",
+  "status": "published_github_release",
   "public_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC",
   "doi": null,
   "main_models": 9,
@@ -10,7 +10,6 @@
     "building_aligned"
   ],
   "pending": [
-    "actual GitHub Release asset publication and public verification",
     "third-party redistribution verification",
     "RGB source/version reconciliation",
     "exhaustive supplementary/narrative audit and clean-machine run"
@@ -19,5 +18,7 @@
   "github_account": "3662477435-ai",
   "code_license": "MIT",
   "original_models_results_license": "CC-BY-4.0",
-  "deposit_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0"
+  "deposit_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0",
+  "public_asset_count": 10,
+  "publication_verified": true
 }
