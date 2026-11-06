@@ -1,0 +1,83 @@
+[
+  {
+    "model": "Proposed model",
+    "overall_accuracy": 0.8789056352042715,
+    "macro_iou_present": 0.5945962549679846,
+    "macro_f1_present": 0.73378911214414,
+    "kappa": 0.7486181200562104,
+    "valid_pixels": 1518543,
+    "maximum_difference": 0.0
+  },
+  {
+    "model": "FCNN (20 epochs)",
+    "overall_accuracy": 0.873285774587878,
+    "macro_iou_present": 0.5795978596827241,
+    "macro_f1_present": 0.7211472271973778,
+    "kappa": 0.7374276460152658,
+    "valid_pixels": 1518543,
+    "maximum_difference": 0.0
+  },
+  {
+    "model": "FCNN (47 epochs)",
+    "overall_accuracy": 0.8794350900830599,
+    "macro_iou_present": 0.5885233337564818,
+    "macro_f1_present": 0.729459852024911,
+    "kappa": 0.7475619306999886,
+    "valid_pixels": 1518543,
+    "maximum_difference": 0.0
+  },
+  {
+    "model": "Transformer",
+    "overall_accuracy": 0.8714162193629025,
+    "macro_iou_present": 0.5775499443369498,
+    "macro_f1_present": 0.7185089893682233,
+    "kappa": 0.7332150178323756,
+    "valid_pixels": 1518543,
+    "maximum_difference": 0.0
+  },
+  {
+    "model": "CNN",
+    "overall_accuracy": 0.8678529353465789,
+    "macro_iou_present": 0.569790701863597,
+    "macro_f1_present": 0.7123222934656546,
+    "kappa": 0.7266315974041181,
+    "valid_pixels": 1518543,
+    "maximum_difference": 0.0
+  },
+  {
+    "model": "FCN-ResNet50 (48 to 3)",
+    "overall_accuracy": 0.818904700097396,
+    "macro_iou_present": 0.42389461601152967,
+    "macro_f1_present": 0.5723981207777268,
+    "kappa": 0.6133271532576351,
+    "valid_pixels": 1518543,
+    "maximum_difference": 0.0
+  },
+  {
+    "model": "FCN-ResNet50 (direct 48)",
+    "overall_accuracy": 0.8123767321702448,
+    "macro_iou_present": 0.4143225823012961,
+    "macro_f1_present": 0.5646900285563345,
+    "kappa": 0.58978495349497,
+    "valid_pixels": 1518543,
+    "maximum_difference": 0.0
+  },
+  {
+    "model": "VGG-UNet-Transformer (48 to 3)",
+    "overall_accuracy": 0.8232786295811182,
+    "macro_iou_present": 0.42551443258437593,
+    "macro_f1_present": 0.6350556363417214,
+    "kappa": 0.6263290468136841,
+    "valid_pixels": 1518543,
+    "maximum_difference": 0.0
+  },
+  {
+    "model": "VGG-UNet-Transformer (direct 48)",
+    "overall_accuracy": 0.8640473137737951,
+    "macro_iou_present": 0.546727653223074,
+    "macro_f1_present": 0.6939813845903697,
+    "kappa": 0.7114363358698464,
+    "valid_pixels": 1518543,
+    "maximum_difference": 0.0
+  }
+]

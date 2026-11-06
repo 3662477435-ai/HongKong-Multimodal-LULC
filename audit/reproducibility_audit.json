@@ -1,0 +1,19 @@
+{
+  "scope": "Main tables 2-9 point estimates, counts, selected p-values, main-model confusion matrices, supplementary S3; no retraining performed",
+  "counts": {
+    "PASS": 329
+  },
+  "issues": [
+    {
+      "status": "UNMATCHED",
+      "location": "Supplementary S1/S2/S4-S7 and narrative claims",
+      "reason": "Source tables are catalogued; full numerical claim-by-claim audit has not been completed."
+    },
+    {
+      "status": "DOCUMENTATION",
+      "location": "Input provenance",
+      "reason": "Archived full-model checkpoints and loaders include a three-channel highres RGB input. Final Table 1 omits an explicit RGB source row. Reconcile the acquisition/version description before claiming complete metadata."
+    }
+  ],
+  "failures": []
+}

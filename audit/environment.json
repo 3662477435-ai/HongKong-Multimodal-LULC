@@ -1,0 +1,20 @@
+{
+  "python": "3.11.0",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.27.0.dev20260407+cu128",
+    "numpy": "1.26.4",
+    "pandas": "2.0.3",
+    "rasterio": "1.4.3",
+    "geopandas": "1.1.1",
+    "scipy": "1.16.2",
+    "matplotlib": "3.7.2",
+    "scikit-learn": "1.7.2",
+    "PyYAML": "6.0.2",
+    "timm": null,
+    "segmentation-models-pytorch": null,
+    "shapely": "2.1.2"
+  },
+  "note": "Captured from packaging environment; not a claim about the original training environment."
+}

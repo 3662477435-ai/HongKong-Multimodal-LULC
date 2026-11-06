@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: Draft metadata only. Cite the actual archived version and DOI once published.
+title: 'Urban-context residual learning for multimodal land use/land cover mapping
+  in high-density mountainous coastal cities: data, code and trained models'
+authors:
+- family-names: Liu
+  given-names: Yufeng
+  affiliation: Faculty of Geographical Science, Beijing Normal University, Beijing
+    100875, China
+- family-names: Zhang
+  given-names: Hongsheng
+  affiliation: Department of Geography, The University of Hong Kong, Hong Kong, China
+version: 1.0.0-draft

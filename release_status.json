@@ -1,0 +1,22 @@
+{
+  "status": "code_public_data_deposit_pending",
+  "public_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC",
+  "doi": null,
+  "main_models": 9,
+  "study_runs": 83,
+  "unmatched_checkpoints": [],
+  "conditional_inputs": [
+    "highres_aligned",
+    "building_aligned"
+  ],
+  "pending": [
+    "target GitHub repository and Figshare login",
+    "third-party redistribution verification",
+    "RGB source/version reconciliation",
+    "exhaustive supplementary/narrative audit and clean-machine run"
+  ],
+  "deposit_platform": "Figshare",
+  "github_account": "3662477435-ai",
+  "code_license": "MIT",
+  "original_models_results_license": "CC-BY-4.0"
+}

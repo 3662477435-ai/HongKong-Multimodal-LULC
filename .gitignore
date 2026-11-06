@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+models/
+data/inputs/
+data/raw/
+artifacts/full/prepared/*.tif
+outputs/
+*.zip
+*.tar
+*.tar.gz

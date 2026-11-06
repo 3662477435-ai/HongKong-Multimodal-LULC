@@ -1,0 +1,6 @@
+﻿exhibit,program,function,input,output
+Figure 6 (six model maps),src/hk_landuse/export_eight_class_figures.py,map_figure,outputs/full/eight_class_20260725/prediction_maps,figures/figure_8class_six_model_maps_2x3_english.png
+Figure 7 (confusion matrices),src/hk_landuse/export_eight_class_figures.py,confusion_figure,results/tables/eight_class_20260725/table_confusion_long.csv,figures/figure_8class_confusion_matrices_2x3_english.png
+Figure 8 (local comparison),scripts/plot_detailed_local_comparison_8class.py,draw,Exact RGB/labels/predictions and archived site selection,Conditional on RGB redistribution terms
+Training/spatial robustness figure,scripts/export_seed_spatial_robustness_english.py,draw_figure,results/tables/eight_class_review_revision_20260801,figures/figure_seed_spatial_robustness_english_600dpi.png
+Main tables 2-9 audit,audit/reproducibility_claims.json,329 verified numeric claims,Saved confusion matrices and source tables,audit/reproducibility_audit.md

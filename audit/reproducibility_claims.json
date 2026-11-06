@@ -1,0 +1,2963 @@
+[
+  {
+    "location": "Table 2 train patches",
+    "reported": 627.0,
+    "archived": 627.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "artifacts\\full\\prepared\\manifest_hier_v2.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 2 train groups",
+    "reported": 62.0,
+    "archived": 62.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "artifacts\\full\\prepared\\manifest_hier_v2.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 2 val patches",
+    "reported": 123.0,
+    "archived": 123.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "artifacts\\full\\prepared\\manifest_hier_v2.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 2 val groups",
+    "reported": 13.0,
+    "archived": 13.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "artifacts\\full\\prepared\\manifest_hier_v2.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 2 test patches",
+    "reported": 125.0,
+    "archived": 125.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "artifacts\\full\\prepared\\manifest_hier_v2.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 2 test groups",
+    "reported": 14.0,
+    "archived": 14.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "artifacts\\full\\prepared\\manifest_hier_v2.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 Proposed model overall_accuracy",
+    "reported": 0.8789,
+    "archived": 0.8789056352042715,
+    "difference": 5.635204271436933e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation Proposed model overall_accuracy",
+    "reported": 0.8789056352042715,
+    "archived": 0.8789056352042715,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 Proposed model macro_iou_present",
+    "reported": 0.5946,
+    "archived": 0.5945962549679846,
+    "difference": 3.745032015389782e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation Proposed model macro_iou_present",
+    "reported": 0.5945962549679846,
+    "archived": 0.5945962549679846,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 Proposed model macro_f1_present",
+    "reported": 0.7338,
+    "archived": 0.73378911214414,
+    "difference": 1.0887855860008955e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation Proposed model macro_f1_present",
+    "reported": 0.73378911214414,
+    "archived": 0.73378911214414,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 Proposed model kappa",
+    "reported": 0.7486,
+    "archived": 0.7486181200562104,
+    "difference": 1.8120056210380042e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 Proposed model epoch",
+    "reported": 3.0,
+    "archived": 3.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCNN (20 epochs) overall_accuracy",
+    "reported": 0.8733,
+    "archived": 0.873285774587878,
+    "difference": 1.4225412121926517e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\fcnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCNN (20 epochs) overall_accuracy",
+    "reported": 0.873285774587878,
+    "archived": 0.873285774587878,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\fcnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCNN (20 epochs) macro_iou_present",
+    "reported": 0.5796,
+    "archived": 0.5795978596827241,
+    "difference": 2.140317275856063e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\fcnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCNN (20 epochs) macro_iou_present",
+    "reported": 0.5795978596827241,
+    "archived": 0.5795978596827241,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\fcnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCNN (20 epochs) macro_f1_present",
+    "reported": 0.7211,
+    "archived": 0.7211472271973778,
+    "difference": 4.722719737781933e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\fcnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCNN (20 epochs) macro_f1_present",
+    "reported": 0.7211472271973778,
+    "archived": 0.7211472271973778,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\fcnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCNN (20 epochs) kappa",
+    "reported": 0.7374,
+    "archived": 0.7374276460152658,
+    "difference": 2.764601526572541e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\fcnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCNN (20 epochs) epoch",
+    "reported": 20.0,
+    "archived": 20.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\fcnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCNN (47 epochs) overall_accuracy",
+    "reported": 0.8794,
+    "archived": 0.8794350900830599,
+    "difference": 3.5090083059907684e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcnn_equal_budget_47ep_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCNN (47 epochs) overall_accuracy",
+    "reported": 0.8794350900830599,
+    "archived": 0.8794350900830599,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcnn_equal_budget_47ep_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCNN (47 epochs) macro_iou_present",
+    "reported": 0.5885,
+    "archived": 0.5885233337564818,
+    "difference": 2.3333756481780377e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcnn_equal_budget_47ep_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCNN (47 epochs) macro_iou_present",
+    "reported": 0.5885233337564818,
+    "archived": 0.5885233337564818,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcnn_equal_budget_47ep_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCNN (47 epochs) macro_f1_present",
+    "reported": 0.7295,
+    "archived": 0.729459852024911,
+    "difference": 4.014797508899992e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcnn_equal_budget_47ep_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCNN (47 epochs) macro_f1_present",
+    "reported": 0.729459852024911,
+    "archived": 0.729459852024911,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcnn_equal_budget_47ep_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCNN (47 epochs) kappa",
+    "reported": 0.7476,
+    "archived": 0.7475619306999886,
+    "difference": 3.806930001148956e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcnn_equal_budget_47ep_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCNN (47 epochs) epoch",
+    "reported": 37.0,
+    "archived": 37.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcnn_equal_budget_47ep_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 Transformer overall_accuracy",
+    "reported": 0.8714,
+    "archived": 0.8714162193629025,
+    "difference": 1.6219362902525347e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation Transformer overall_accuracy",
+    "reported": 0.8714162193629025,
+    "archived": 0.8714162193629025,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 Transformer macro_iou_present",
+    "reported": 0.5775,
+    "archived": 0.5775499443369498,
+    "difference": 4.994433694982536e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation Transformer macro_iou_present",
+    "reported": 0.5775499443369498,
+    "archived": 0.5775499443369498,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 Transformer macro_f1_present",
+    "reported": 0.7185,
+    "archived": 0.7185089893682233,
+    "difference": 8.989368223244476e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation Transformer macro_f1_present",
+    "reported": 0.7185089893682233,
+    "archived": 0.7185089893682233,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 Transformer kappa",
+    "reported": 0.7332,
+    "archived": 0.7332150178323756,
+    "difference": 1.5017832375674445e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 Transformer epoch",
+    "reported": 18.0,
+    "archived": 18.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 CNN overall_accuracy",
+    "reported": 0.8679,
+    "archived": 0.8678529353465789,
+    "difference": 4.706465342108057e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\cnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation CNN overall_accuracy",
+    "reported": 0.8678529353465789,
+    "archived": 0.8678529353465789,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\cnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 CNN macro_iou_present",
+    "reported": 0.5698,
+    "archived": 0.569790701863597,
+    "difference": 9.29813640293542e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\cnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation CNN macro_iou_present",
+    "reported": 0.569790701863597,
+    "archived": 0.569790701863597,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\cnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 CNN macro_f1_present",
+    "reported": 0.7123,
+    "archived": 0.7123222934656546,
+    "difference": 2.2293465654521505e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\cnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation CNN macro_f1_present",
+    "reported": 0.7123222934656546,
+    "archived": 0.7123222934656546,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\cnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 CNN kappa",
+    "reported": 0.7266,
+    "archived": 0.7266315974041181,
+    "difference": 3.159740411806666e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\cnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 CNN epoch",
+    "reported": 19.0,
+    "archived": 19.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\cnn_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCN-ResNet50 (48 to 3) overall_accuracy",
+    "reported": 0.8189,
+    "archived": 0.818904700097396,
+    "difference": 4.70009739605981e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\fcn_resnet50_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCN-ResNet50 (48 to 3) overall_accuracy",
+    "reported": 0.818904700097396,
+    "archived": 0.818904700097396,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\fcn_resnet50_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCN-ResNet50 (48 to 3) macro_iou_present",
+    "reported": 0.4239,
+    "archived": 0.42389461601152967,
+    "difference": 5.383988470331058e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\fcn_resnet50_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCN-ResNet50 (48 to 3) macro_iou_present",
+    "reported": 0.42389461601152967,
+    "archived": 0.42389461601152967,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\fcn_resnet50_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCN-ResNet50 (48 to 3) macro_f1_present",
+    "reported": 0.5724,
+    "archived": 0.5723981207777268,
+    "difference": 1.8792222732377795e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\fcn_resnet50_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCN-ResNet50 (48 to 3) macro_f1_present",
+    "reported": 0.5723981207777268,
+    "archived": 0.5723981207777268,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\fcn_resnet50_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCN-ResNet50 (48 to 3) kappa",
+    "reported": 0.6133,
+    "archived": 0.6133271532576351,
+    "difference": 2.715325763513743e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\fcn_resnet50_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCN-ResNet50 (48 to 3) epoch",
+    "reported": 15.0,
+    "archived": 15.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\fcn_resnet50_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCN-ResNet50 (direct 48) overall_accuracy",
+    "reported": 0.8124,
+    "archived": 0.8123767321702448,
+    "difference": 2.3267829755257985e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcn_resnet50_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCN-ResNet50 (direct 48) overall_accuracy",
+    "reported": 0.8123767321702448,
+    "archived": 0.8123767321702448,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcn_resnet50_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCN-ResNet50 (direct 48) macro_iou_present",
+    "reported": 0.4143,
+    "archived": 0.4143225823012961,
+    "difference": 2.25823012960924e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcn_resnet50_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCN-ResNet50 (direct 48) macro_iou_present",
+    "reported": 0.4143225823012961,
+    "archived": 0.4143225823012961,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcn_resnet50_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCN-ResNet50 (direct 48) macro_f1_present",
+    "reported": 0.5647,
+    "archived": 0.5646900285563345,
+    "difference": 9.971443665435231e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcn_resnet50_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation FCN-ResNet50 (direct 48) macro_f1_present",
+    "reported": 0.5646900285563345,
+    "archived": 0.5646900285563345,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcn_resnet50_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCN-ResNet50 (direct 48) kappa",
+    "reported": 0.5898,
+    "archived": 0.58978495349497,
+    "difference": 1.504650503003635e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcn_resnet50_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 FCN-ResNet50 (direct 48) epoch",
+    "reported": 16.0,
+    "archived": 16.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\fcn_resnet50_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 VGG-UNet-Transformer (48 to 3) overall_accuracy",
+    "reported": 0.8233,
+    "archived": 0.8232786295811182,
+    "difference": 2.137041888183866e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\vgg_unet_transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation VGG-UNet-Transformer (48 to 3) overall_accuracy",
+    "reported": 0.8232786295811182,
+    "archived": 0.8232786295811182,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\vgg_unet_transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 VGG-UNet-Transformer (48 to 3) macro_iou_present",
+    "reported": 0.4255,
+    "archived": 0.42551443258437593,
+    "difference": 1.443258437594519e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\vgg_unet_transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation VGG-UNet-Transformer (48 to 3) macro_iou_present",
+    "reported": 0.42551443258437593,
+    "archived": 0.42551443258437593,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\vgg_unet_transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 VGG-UNet-Transformer (48 to 3) macro_f1_present",
+    "reported": 0.6351,
+    "archived": 0.6350556363417214,
+    "difference": 4.4363658278645524e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\vgg_unet_transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation VGG-UNet-Transformer (48 to 3) macro_f1_present",
+    "reported": 0.6350556363417214,
+    "archived": 0.6350556363417214,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_20260725\\vgg_unet_transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 VGG-UNet-Transformer (48 to 3) kappa",
+    "reported": 0.6263,
+    "archived": 0.6263290468136841,
+    "difference": 2.9046813684097117e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\vgg_unet_transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 VGG-UNet-Transformer (48 to 3) epoch",
+    "reported": 18.0,
+    "archived": 18.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\vgg_unet_transformer_full_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 VGG-UNet-Transformer (direct 48) overall_accuracy",
+    "reported": 0.864,
+    "archived": 0.8640473137737951,
+    "difference": 4.731377379507684e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\vgg_unet_transformer_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation VGG-UNet-Transformer (direct 48) overall_accuracy",
+    "reported": 0.8640473137737951,
+    "archived": 0.8640473137737951,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\vgg_unet_transformer_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 VGG-UNet-Transformer (direct 48) macro_iou_present",
+    "reported": 0.5467,
+    "archived": 0.546727653223074,
+    "difference": 2.7653223074075584e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\vgg_unet_transformer_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation VGG-UNet-Transformer (direct 48) macro_iou_present",
+    "reported": 0.546727653223074,
+    "archived": 0.546727653223074,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\vgg_unet_transformer_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 VGG-UNet-Transformer (direct 48) macro_f1_present",
+    "reported": 0.694,
+    "archived": 0.6939813845903697,
+    "difference": 1.8615409630218238e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\vgg_unet_transformer_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Confusion matrix recomputation VGG-UNet-Transformer (direct 48) macro_f1_present",
+    "reported": 0.6939813845903697,
+    "archived": 0.6939813845903697,
+    "difference": 0.0,
+    "tolerance": 1e-10,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\vgg_unet_transformer_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 VGG-UNet-Transformer (direct 48) kappa",
+    "reported": 0.7114,
+    "archived": 0.7114363358698464,
+    "difference": 3.633586984641557e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\vgg_unet_transformer_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 3 VGG-UNet-Transformer (direct 48) epoch",
+    "reported": 18.0,
+    "archived": 18.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_fairness_supplement_20260802\\vgg_unet_transformer_direct48_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Residential support",
+    "reported": 61908.0,
+    "archived": 61908.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Residential recall",
+    "reported": 0.7279,
+    "archived": 0.72793500032306,
+    "difference": 3.5000323060030425e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Residential precision",
+    "reported": 0.7248,
+    "archived": 0.724843981213408,
+    "difference": 4.398121340798422e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Residential f1",
+    "reported": 0.7264,
+    "archived": 0.7263862024500322,
+    "difference": 1.3797549967886624e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Residential iou",
+    "reported": 0.5703,
+    "archived": 0.5703347465671075,
+    "difference": 3.47465671074465e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Industrial/warehouse support",
+    "reported": 46925.0,
+    "archived": 46925.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Industrial/warehouse recall",
+    "reported": 0.6552,
+    "archived": 0.6552370804475226,
+    "difference": 3.7080447522597204e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Industrial/warehouse precision",
+    "reported": 0.6641,
+    "archived": 0.6640820734341253,
+    "difference": 1.79265658747374e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Industrial/warehouse f1",
+    "reported": 0.6596,
+    "archived": 0.6596299275945293,
+    "difference": 2.992759452935534e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Industrial/warehouse iou",
+    "reported": 0.4921,
+    "archived": 0.49212522808028425,
+    "difference": 2.5228080284267485e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Public/institutional & recreation support",
+    "reported": 53851.0,
+    "archived": 53851.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Public/institutional & recreation recall",
+    "reported": 0.7689,
+    "archived": 0.7688808007279345,
+    "difference": 1.9199272065506534e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Public/institutional & recreation precision",
+    "reported": 0.7371,
+    "archived": 0.7370585303332384,
+    "difference": 4.146966676155106e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Public/institutional & recreation f1",
+    "reported": 0.7526,
+    "archived": 0.7526334445181637,
+    "difference": 3.344451816367222e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Public/institutional & recreation iou",
+    "reported": 0.6034,
+    "archived": 0.6033779254466498,
+    "difference": 2.2074553350237558e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Transportation facilities support",
+    "reported": 67956.0,
+    "archived": 67956.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Transportation facilities recall",
+    "reported": 0.7465,
+    "archived": 0.746453587615516,
+    "difference": 4.6412384484106894e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Transportation facilities precision",
+    "reported": 0.755,
+    "archived": 0.7549635362405119,
+    "difference": 3.6463759488070124e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Transportation facilities f1",
+    "reported": 0.7507,
+    "archived": 0.7506844449706243,
+    "difference": 1.5555029375780016e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Transportation facilities iou",
+    "reported": 0.6009,
+    "archived": 0.6008765695332859,
+    "difference": 2.343046671404725e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Other built-up land support",
+    "reported": 57587.0,
+    "archived": 57587.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Other built-up land recall",
+    "reported": 0.6918,
+    "archived": 0.6917707121398927,
+    "difference": 2.928786010725215e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Other built-up land precision",
+    "reported": 0.5252,
+    "archived": 0.5252007224690511,
+    "difference": 7.22469051139818e-07,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Other built-up land f1",
+    "reported": 0.5971,
+    "archived": 0.5970862872644973,
+    "difference": 1.3712735502657836e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Other built-up land iou",
+    "reported": 0.4256,
+    "archived": 0.4256044273031271,
+    "difference": 4.42730312710804e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Agriculture support",
+    "reported": 72506.0,
+    "archived": 72506.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Agriculture recall",
+    "reported": 0.5905,
+    "archived": 0.5904752710120542,
+    "difference": 2.4728987945810132e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Agriculture precision",
+    "reported": 0.5499,
+    "archived": 0.5499210049709067,
+    "difference": 2.100497090662401e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Agriculture f1",
+    "reported": 0.5695,
+    "archived": 0.5694770515898615,
+    "difference": 2.2948410138501352e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Agriculture iou",
+    "reported": 0.3981,
+    "archived": 0.39809011957673923,
+    "difference": 9.880423260777427e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Woodland/shrubland/grassland/wetland support",
+    "reported": 1090198.0,
+    "archived": 1090198.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Woodland/shrubland/grassland/wetland recall",
+    "reported": 0.943,
+    "archived": 0.9429709098714179,
+    "difference": 2.9090128582098806e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Woodland/shrubland/grassland/wetland precision",
+    "reported": 0.9601,
+    "archived": 0.9601088221394963,
+    "difference": 8.822139496378334e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Woodland/shrubland/grassland/wetland f1",
+    "reported": 0.9515,
+    "archived": 0.9514626994968847,
+    "difference": 3.730050311534505e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Woodland/shrubland/grassland/wetland iou",
+    "reported": 0.9074,
+    "archived": 0.9074190293853621,
+    "difference": 1.9029385362134832e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Water support",
+    "reported": 67612.0,
+    "archived": 67612.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Water recall",
+    "reported": 0.8288,
+    "archived": 0.8288173696976868,
+    "difference": 1.7369697686842045e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Water precision",
+    "reported": 0.9,
+    "archived": 0.9000208791738271,
+    "difference": 2.0879173827093034e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Water f1",
+    "reported": 0.863,
+    "archived": 0.8629528392685274,
+    "difference": 4.716073147259525e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 4 Water iou",
+    "reported": 0.7589,
+    "archived": 0.7589419938513211,
+    "difference": 4.199385132108713e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 5 Proposed model",
+    "reported": 0.5832,
+    "archived": 0.5831845409636836,
+    "difference": 1.5459036316500807e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_lineage_strong_baselines_20260813\\analysis_addenda_20260818\\boundary_f1_all_models_standardized.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 5 CNN",
+    "reported": 0.5347,
+    "archived": 0.5346874441097802,
+    "difference": 1.255589021975645e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_lineage_strong_baselines_20260813\\analysis_addenda_20260818\\boundary_f1_all_models_standardized.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 5 FCNN (20 epochs)",
+    "reported": 0.5518,
+    "archived": 0.5517502780152654,
+    "difference": 4.972198473451872e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_lineage_strong_baselines_20260813\\analysis_addenda_20260818\\boundary_f1_all_models_standardized.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 5 FCNN (47 epochs)",
+    "reported": 0.5763,
+    "archived": 0.5763295313799224,
+    "difference": 2.9531379922342893e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_lineage_strong_baselines_20260813\\analysis_addenda_20260818\\boundary_f1_all_models_standardized.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 5 Transformer",
+    "reported": 0.5096,
+    "archived": 0.5095600524513662,
+    "difference": 3.994754863390071e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_lineage_strong_baselines_20260813\\analysis_addenda_20260818\\boundary_f1_all_models_standardized.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 5 FCN-ResNet50",
+    "reported": 0.3321,
+    "archived": 0.3320612894121158,
+    "difference": 3.8710587884183134e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_lineage_strong_baselines_20260813\\analysis_addenda_20260818\\boundary_f1_all_models_standardized.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 5 VGG-UNet-Transformer",
+    "reported": 0.4407,
+    "archived": 0.4406658885515773,
+    "difference": 3.4111448422691204e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_lineage_strong_baselines_20260813\\analysis_addenda_20260818\\boundary_f1_all_models_standardized.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model full OA",
+    "reported": 87.89,
+    "archived": 87.89056352042715,
+    "difference": 0.0005635204271499106,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model full macro_mIoU",
+    "reported": 0.5946,
+    "archived": 0.5945962549679846,
+    "difference": 3.745032015389782e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model s2 OA",
+    "reported": 82.53,
+    "archived": 82.52956946230697,
+    "difference": 0.0004305376930346938,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model s2 macro_mIoU",
+    "reported": 0.4392,
+    "archived": 0.4391576716039502,
+    "difference": 4.2328396049784445e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model no_osm_roads OA",
+    "reported": 84.7,
+    "archived": 84.69835888743354,
+    "difference": 0.0016411125664603787,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model no_osm_roads macro_mIoU",
+    "reported": 0.4835,
+    "archived": 0.4834989537752359,
+    "difference": 1.0462247641007671e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model no_building OA",
+    "reported": 86.94,
+    "archived": 86.9357008658958,
+    "difference": 0.00429913410420113,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model no_building macro_mIoU",
+    "reported": 0.5795,
+    "archived": 0.579477138414864,
+    "difference": 2.2861585135980356e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model no_s1 OA",
+    "reported": 87.27,
+    "archived": 87.26568822878245,
+    "difference": 0.004311771217544447,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model no_s1 macro_mIoU",
+    "reported": 0.5914,
+    "archived": 0.5914481209422817,
+    "difference": 4.8120942281681955e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model no_nighttime OA",
+    "reported": 87.23,
+    "archived": 87.22518888171096,
+    "difference": 0.0048111182890409054,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Proposed model no_nighttime macro_mIoU",
+    "reported": 0.5781,
+    "archived": 0.578069659932956,
+    "difference": 3.034006704394354e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN full OA",
+    "reported": 86.79,
+    "archived": 86.7852935346579,
+    "difference": 0.0047064653421102776,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN full macro_mIoU",
+    "reported": 0.5698,
+    "archived": 0.569790701863597,
+    "difference": 9.29813640293542e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN s2 OA",
+    "reported": 81.73,
+    "archived": 81.72787994808182,
+    "difference": 0.002120051918183208,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN s2 macro_mIoU",
+    "reported": 0.4036,
+    "archived": 0.4035978904269321,
+    "difference": 2.109573067898829e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN no_osm_roads OA",
+    "reported": 83.54,
+    "archived": 83.53829954107326,
+    "difference": 0.001700458926748638,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN no_osm_roads macro_mIoU",
+    "reported": 0.4476,
+    "archived": 0.4475670308751848,
+    "difference": 3.296912481520753e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN no_building OA",
+    "reported": 85.91,
+    "archived": 85.91439294112844,
+    "difference": 0.004392941128443795,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN no_building macro_mIoU",
+    "reported": 0.5341,
+    "archived": 0.5340820333964333,
+    "difference": 1.796660356667701e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN no_s1 OA",
+    "reported": 85.37,
+    "archived": 85.37499432021352,
+    "difference": 0.0049943202135125375,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN no_s1 macro_mIoU",
+    "reported": 0.5496,
+    "archived": 0.5495717428375575,
+    "difference": 2.825716244247989e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN no_nighttime OA",
+    "reported": 86.26,
+    "archived": 86.26341170450887,
+    "difference": 0.0034117045088635223,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 CNN no_nighttime macro_mIoU",
+    "reported": 0.5492,
+    "archived": 0.5492151573643407,
+    "difference": 1.515736434065662e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN full OA",
+    "reported": 87.33,
+    "archived": 87.3285774587878,
+    "difference": 0.0014225412121930958,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN full macro_mIoU",
+    "reported": 0.5796,
+    "archived": 0.5795978596827241,
+    "difference": 2.140317275856063e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN s2 OA",
+    "reported": 82.65,
+    "archived": 82.65245040805561,
+    "difference": 0.0024504080556084773,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN s2 macro_mIoU",
+    "reported": 0.4374,
+    "archived": 0.4374156151263061,
+    "difference": 1.5615126306101068e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN no_osm_roads OA",
+    "reported": 84.39,
+    "archived": 84.38931265034971,
+    "difference": 0.0006873496502919352,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN no_osm_roads macro_mIoU",
+    "reported": 0.4781,
+    "archived": 0.4781442128244469,
+    "difference": 4.4212824446887566e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN no_building OA",
+    "reported": 86.49,
+    "archived": 86.49139339485284,
+    "difference": 0.0013933948528404017,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN no_building macro_mIoU",
+    "reported": 0.5511,
+    "archived": 0.551092395681607,
+    "difference": 7.604318393084064e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN no_s1 OA",
+    "reported": 86.92,
+    "archived": 86.91620849722398,
+    "difference": 0.003791502776024913,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN no_s1 macro_mIoU",
+    "reported": 0.5657,
+    "archived": 0.5656917645775832,
+    "difference": 8.235422416791316e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN no_nighttime OA",
+    "reported": 86.57,
+    "archived": 86.57265549938329,
+    "difference": 0.0026554993832945684,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCNN no_nighttime macro_mIoU",
+    "reported": 0.5569,
+    "archived": 0.5569312359900667,
+    "difference": 3.1235990066713626e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer full OA",
+    "reported": 87.14,
+    "archived": 87.14162193629025,
+    "difference": 0.001621936290248982,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer full macro_mIoU",
+    "reported": 0.5775,
+    "archived": 0.5775499443369498,
+    "difference": 4.994433694982536e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer s2 OA",
+    "reported": 81.51,
+    "archived": 81.50773471676469,
+    "difference": 0.0022652832353173835,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer s2 macro_mIoU",
+    "reported": 0.3944,
+    "archived": 0.3943873271143287,
+    "difference": 1.2672885671249912e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer no_osm_roads OA",
+    "reported": 83.74,
+    "archived": 83.74408890627397,
+    "difference": 0.004088906273977955,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer no_osm_roads macro_mIoU",
+    "reported": 0.4531,
+    "archived": 0.4530734646997649,
+    "difference": 2.653530023510875e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer no_building OA",
+    "reported": 85.29,
+    "archived": 85.28675184041545,
+    "difference": 0.0032481595845581523,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer no_building macro_mIoU",
+    "reported": 0.5319,
+    "archived": 0.5318908818680592,
+    "difference": 9.118131940821783e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer no_s1 OA",
+    "reported": 85.7,
+    "archived": 85.69931835976986,
+    "difference": 0.0006816402301410562,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer no_s1 macro_mIoU",
+    "reported": 0.5438,
+    "archived": 0.5438117242903084,
+    "difference": 1.1724290308490204e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer no_nighttime OA",
+    "reported": 85.77,
+    "archived": 85.76642215597451,
+    "difference": 0.003577844025485888,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 Transformer no_nighttime macro_mIoU",
+    "reported": 0.5341,
+    "archived": 0.5341184895732348,
+    "difference": 1.848957323480338e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 full OA",
+    "reported": 81.89,
+    "archived": 81.8904700097396,
+    "difference": 0.00047000973960109604,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 full macro_mIoU",
+    "reported": 0.4239,
+    "archived": 0.4238946160115296,
+    "difference": 5.383988470386569e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 s2 OA",
+    "reported": 79.44,
+    "archived": 79.43983147003411,
+    "difference": 0.0001685299658902295,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 s2 macro_mIoU",
+    "reported": 0.3437,
+    "archived": 0.3436599800089162,
+    "difference": 4.0019991083828366e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 no_osm_roads OA",
+    "reported": 79.41,
+    "archived": 79.41065876962325,
+    "difference": 0.0006587696232571716,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 no_osm_roads macro_mIoU",
+    "reported": 0.3469,
+    "archived": 0.3469346259766691,
+    "difference": 3.462597666908929e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 no_building OA",
+    "reported": 79.77,
+    "archived": 79.76981883292076,
+    "difference": 0.00018116707923354625,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 no_building macro_mIoU",
+    "reported": 0.3961,
+    "archived": 0.3960673108047787,
+    "difference": 3.268919522131375e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 no_s1 OA",
+    "reported": 79.22,
+    "archived": 79.22311057375391,
+    "difference": 0.0031105737539149914,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 no_s1 macro_mIoU",
+    "reported": 0.3761,
+    "archived": 0.3761081115744327,
+    "difference": 8.111574432700941e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 no_nighttime OA",
+    "reported": 77.31,
+    "archived": 77.30936825628251,
+    "difference": 0.0006317437174914176,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 FCN-ResNet50 no_nighttime macro_mIoU",
+    "reported": 0.2978,
+    "archived": 0.2977623080412554,
+    "difference": 3.769195874459008e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer full OA",
+    "reported": 82.33,
+    "archived": 82.32786295811182,
+    "difference": 0.0021370418881758724,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer full macro_mIoU",
+    "reported": 0.4255,
+    "archived": 0.4255144325843759,
+    "difference": 1.4432584375889679e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer s2 OA",
+    "reported": 78.07,
+    "archived": 78.06818772994903,
+    "difference": 0.0018122700509621836,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer s2 macro_mIoU",
+    "reported": 0.3445,
+    "archived": 0.3444677501777679,
+    "difference": 3.2249822232099934e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer no_osm_roads OA",
+    "reported": 80.79,
+    "archived": 80.78546343435781,
+    "difference": 0.004536565642197843,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer no_osm_roads macro_mIoU",
+    "reported": 0.3504,
+    "archived": 0.3504274409196555,
+    "difference": 2.74409196555081e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer no_building OA",
+    "reported": 84.38,
+    "archived": 84.38358347442252,
+    "difference": 0.0035834744225269333,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer no_building macro_mIoU",
+    "reported": 0.48,
+    "archived": 0.4799718976040695,
+    "difference": 2.8102395930484914e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer no_s1 OA",
+    "reported": 82.94,
+    "archived": 82.93811897325266,
+    "difference": 0.0018810267473412523,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer no_s1 macro_mIoU",
+    "reported": 0.4283,
+    "archived": 0.428276118300739,
+    "difference": 2.3881699261041334e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer no_nighttime OA",
+    "reported": 82.59,
+    "archived": 82.5900879988252,
+    "difference": 8.799882519383573e-05,
+    "tolerance": 0.0051,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 6 VGG-UNet-Transformer no_nighttime macro_mIoU",
+    "reported": 0.4155,
+    "archived": 0.4155260549619498,
+    "difference": 2.6054961949795175e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\final_results\\table_ablation_all_models.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 Proposed model OA",
+    "reported": 0.8789,
+    "archived": 0.8789056352042715,
+    "difference": 5.635204271436933e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 Proposed model mIoU",
+    "reported": 0.5946,
+    "archived": 0.5945962549679846,
+    "difference": 3.745032015389782e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 Proposed model F1",
+    "reported": 0.7338,
+    "archived": 0.73378911214414,
+    "difference": 1.0887855860008955e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 No hierarchical probability OA",
+    "reported": 0.8747,
+    "archived": 0.8747022639464276,
+    "difference": 2.26394642754979e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 No hierarchical probability mIoU",
+    "reported": 0.5853,
+    "archived": 0.5852711629367098,
+    "difference": 2.8837063290265696e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 No hierarchical probability F1",
+    "reported": 0.7254,
+    "archived": 0.7254236616070769,
+    "difference": 2.3661607076896907e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 No hierarchical probability raw p",
+    "reported": 0.1129,
+    "archived": 0.1129150390625,
+    "difference": 1.5039062499999645e-05,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 No hierarchical probability Holm p",
+    "reported": 0.148,
+    "archived": 0.14794921875,
+    "difference": 5.078124999999267e-05,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 No urban-context residual OA",
+    "reported": 0.8718,
+    "archived": 0.8718060667363388,
+    "difference": 6.066736338738998e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 No urban-context residual mIoU",
+    "reported": 0.5736,
+    "archived": 0.5735817742767476,
+    "difference": 1.822572325238525e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 No urban-context residual F1",
+    "reported": 0.716,
+    "archived": 0.7159812412520266,
+    "difference": 1.8758747973413037e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 No urban-context residual raw p",
+    "reported": 0.014,
+    "archived": 0.0140380859375,
+    "difference": 3.808593749999971e-05,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 No urban-context residual Holm p",
+    "reported": 0.042,
+    "archived": 0.0421142578125,
+    "difference": 0.00011425781249999739,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 Shared gate (instead of class-wise gates) OA",
+    "reported": 0.878,
+    "archived": 0.8780442832372873,
+    "difference": 4.428323728733474e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 Shared gate (instead of class-wise gates) mIoU",
+    "reported": 0.5906,
+    "archived": 0.5906361381530136,
+    "difference": 3.6138153013620666e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 Shared gate (instead of class-wise gates) F1",
+    "reported": 0.7301,
+    "archived": 0.7301304024373548,
+    "difference": 3.040243735485948e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 Shared gate (instead of class-wise gates) raw p",
+    "reported": 0.074,
+    "archived": 0.073974609375,
+    "difference": 2.5390624999996336e-05,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 7 Shared gate (instead of class-wise gates) Holm p",
+    "reported": 0.148,
+    "archived": 0.14794921875,
+    "difference": 5.078124999999267e-05,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_structural_component_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 Full modality OA",
+    "reported": 0.8789,
+    "archived": 0.8789056352042715,
+    "difference": 5.635204271436933e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 Full modality mIoU",
+    "reported": 0.5946,
+    "archived": 0.5945962549679846,
+    "difference": 3.745032015389782e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 Full modality F1",
+    "reported": 0.7338,
+    "archived": 0.73378911214414,
+    "difference": 1.0887855860008955e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −POI OA",
+    "reported": 0.8782,
+    "archived": 0.8782148414631656,
+    "difference": 1.4841463165660151e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −POI mIoU",
+    "reported": 0.5921,
+    "archived": 0.5920802990231071,
+    "difference": 1.970097689285577e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −POI F1",
+    "reported": 0.7314,
+    "archived": 0.7314215418905261,
+    "difference": 2.1541890526055596e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −POI raw p",
+    "reported": 0.2598,
+    "archived": 0.259765625,
+    "difference": 3.43749999999754e-05,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −POI Holm p",
+    "reported": 0.2652,
+    "archived": 0.26513671875,
+    "difference": 6.32812499999913e-05,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −AOI OA",
+    "reported": 0.8614,
+    "archived": 0.8614263804185986,
+    "difference": 2.6380418598592748e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −AOI mIoU",
+    "reported": 0.529,
+    "archived": 0.5290439722139886,
+    "difference": 4.397221398855233e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −AOI F1",
+    "reported": 0.6733,
+    "archived": 0.673319376959746,
+    "difference": 1.937695974596476e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −AOI raw p",
+    "reported": 0.0127,
+    "archived": 0.0126953125,
+    "difference": 4.687499999999484e-06,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −AOI Holm p",
+    "reported": 0.0508,
+    "archived": 0.05078125,
+    "difference": 1.8749999999997935e-05,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −Roads OA",
+    "reported": 0.8724,
+    "archived": 0.8724105935755524,
+    "difference": 1.0593575552442225e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −Roads mIoU",
+    "reported": 0.5761,
+    "archived": 0.576066251807609,
+    "difference": 3.374819239099214e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −Roads F1",
+    "reported": 0.7166,
+    "archived": 0.7166181675383199,
+    "difference": 1.816753831984652e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −Roads raw p",
+    "reported": 0.0924,
+    "archived": 0.0924072265625,
+    "difference": 7.226562500003975e-06,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −Roads Holm p",
+    "reported": 0.2652,
+    "archived": 0.26513671875,
+    "difference": 6.32812499999913e-05,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −OSM text OA",
+    "reported": 0.8731,
+    "archived": 0.8731106066802191,
+    "difference": 1.0606680219127362e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −OSM text mIoU",
+    "reported": 0.5745,
+    "archived": 0.574541231439633,
+    "difference": 4.12314396329716e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −OSM text F1",
+    "reported": 0.7149,
+    "archived": 0.7148982242415091,
+    "difference": 1.7757584909183777e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −OSM text raw p",
+    "reported": 0.0884,
+    "archived": 0.08837890625,
+    "difference": 2.109375000000635e-05,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −OSM text Holm p",
+    "reported": 0.2652,
+    "archived": 0.26513671875,
+    "difference": 6.32812499999913e-05,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −POI/AOI/roads/text OA",
+    "reported": 0.847,
+    "archived": 0.8469835888743354,
+    "difference": 1.6411125664528292e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −POI/AOI/roads/text mIoU",
+    "reported": 0.4835,
+    "archived": 0.4834989537752359,
+    "difference": 1.0462247641007671e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −POI/AOI/roads/text F1",
+    "reported": 0.6304,
+    "archived": 0.6303539010282364,
+    "difference": 4.609897176355293e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −POI/AOI/roads/text raw p",
+    "reported": 0.0083,
+    "archived": 0.00830078125,
+    "difference": 7.81249999999914e-07,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 8 −POI/AOI/roads/text Holm p",
+    "reported": 0.0415,
+    "archived": 0.04150390625,
+    "difference": 3.906249999997835e-06,
+    "tolerance": "Same significance level at 0.10/0.05/0.01/0.001",
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_osm_separate_ablation.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km (main protocol) test groups",
+    "reported": 14.0,
+    "archived": 14.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km (main protocol) OA point estimate",
+    "reported": 0.8789,
+    "archived": 0.8789056352042715,
+    "difference": 5.635204271436933e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km (main protocol) OA CI lower",
+    "reported": 0.843,
+    "archived": 0.8430148668851154,
+    "difference": 1.4866885115427664e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km (main protocol) OA CI upper",
+    "reported": 0.9088,
+    "archived": 0.9087586905749984,
+    "difference": 4.130942500168988e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km (main protocol) mIoU point estimate",
+    "reported": 0.5946,
+    "archived": 0.5945962549679846,
+    "difference": 3.745032015389782e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km (main protocol) mIoU CI lower",
+    "reported": 0.4622,
+    "archived": 0.46216775754991307,
+    "difference": 3.224245008692783e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km (main protocol) mIoU CI upper",
+    "reported": 0.6183,
+    "archived": 0.618260007748984,
+    "difference": 3.999225101591897e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km (main protocol) F1 point estimate",
+    "reported": 0.7338,
+    "archived": 0.73378911214414,
+    "difference": 1.0887855860008955e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km (main protocol) F1 CI lower",
+    "reported": 0.5938,
+    "archived": 0.5938400218631716,
+    "difference": 4.0021863171646466e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km (main protocol) F1 CI upper",
+    "reported": 0.7529,
+    "archived": 0.7529257834516745,
+    "difference": 2.5783451674477043e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_20260725\\ours_fcnn_hierarchy_semantic_final_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 2.56 km blocks test groups",
+    "reported": 41.0,
+    "archived": 41.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 2.56 km blocks OA point estimate",
+    "reported": 0.8537,
+    "archived": 0.853687595280493,
+    "difference": 1.2404719507030926e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 2.56 km blocks OA CI lower",
+    "reported": 0.8203,
+    "archived": 0.8203319722289613,
+    "difference": 3.197222896123009e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block256_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 2.56 km blocks OA CI upper",
+    "reported": 0.8841,
+    "archived": 0.8841499889519864,
+    "difference": 4.9988951986379426e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block256_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 2.56 km blocks mIoU point estimate",
+    "reported": 0.579,
+    "archived": 0.5790053194419286,
+    "difference": 5.319441928608448e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 2.56 km blocks mIoU CI lower",
+    "reported": 0.4867,
+    "archived": 0.4866684101876647,
+    "difference": 3.1589812335308665e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block256_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 2.56 km blocks mIoU CI upper",
+    "reported": 0.6128,
+    "archived": 0.6128199517107068,
+    "difference": 1.995171070678925e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block256_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 2.56 km blocks F1 point estimate",
+    "reported": 0.7215,
+    "archived": 0.7215180881363914,
+    "difference": 1.8088136391369858e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 2.56 km blocks F1 CI lower",
+    "reported": 0.6224,
+    "archived": 0.6223834597630566,
+    "difference": 1.654023694330764e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block256_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 2.56 km blocks F1 CI upper",
+    "reported": 0.7483,
+    "archived": 0.7483178634064828,
+    "difference": 1.7863406482798716e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block256_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 10.24 km blocks test groups",
+    "reported": 5.0,
+    "archived": 5.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 10.24 km blocks OA point estimate",
+    "reported": 0.8669,
+    "archived": 0.8668716175494774,
+    "difference": 2.838245052261268e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 10.24 km blocks OA CI lower",
+    "reported": 0.7879,
+    "archived": 0.787898948833229,
+    "difference": 1.0511667710710881e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block1024_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 10.24 km blocks OA CI upper",
+    "reported": 0.9328,
+    "archived": 0.9327509009780949,
+    "difference": 4.909902190508575e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block1024_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 10.24 km blocks mIoU point estimate",
+    "reported": 0.5576,
+    "archived": 0.5576103086321587,
+    "difference": 1.030863215867317e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 10.24 km blocks mIoU CI lower",
+    "reported": 0.3939,
+    "archived": 0.39391551803437985,
+    "difference": 1.5518034379879975e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block1024_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 10.24 km blocks mIoU CI upper",
+    "reported": 0.5632,
+    "archived": 0.5631737751328381,
+    "difference": 2.6224867161972476e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block1024_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 10.24 km blocks F1 point estimate",
+    "reported": 0.6967,
+    "archived": 0.6967229885115095,
+    "difference": 2.2988511509502985e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 10.24 km blocks F1 CI lower",
+    "reported": 0.5,
+    "archived": 0.5000178003558737,
+    "difference": 1.7800355873731633e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block1024_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 10.24 km blocks F1 CI upper",
+    "reported": 0.7045,
+    "archived": 0.7045380432489393,
+    "difference": 3.804324893930122e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block1024_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km + 1.28 km buffer test groups",
+    "reported": 14.0,
+    "archived": 14.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km + 1.28 km buffer OA point estimate",
+    "reported": 0.8628,
+    "archived": 0.8628422112511795,
+    "difference": 4.2211251179535836e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km + 1.28 km buffer OA CI lower",
+    "reported": 0.8265,
+    "archived": 0.826507537047362,
+    "difference": 7.5370473620051115e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block512_buffer128_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km + 1.28 km buffer OA CI upper",
+    "reported": 0.8933,
+    "archived": 0.8932683156073823,
+    "difference": 3.16843926176924e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block512_buffer128_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km + 1.28 km buffer mIoU point estimate",
+    "reported": 0.5491,
+    "archived": 0.5491248064167401,
+    "difference": 2.480641674007522e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km + 1.28 km buffer mIoU CI lower",
+    "reported": 0.4306,
+    "archived": 0.4306009828686776,
+    "difference": 9.828686776125473e-07,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block512_buffer128_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km + 1.28 km buffer mIoU CI upper",
+    "reported": 0.5738,
+    "archived": 0.5737653079633672,
+    "difference": 3.469203663275522e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block512_buffer128_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km + 1.28 km buffer F1 point estimate",
+    "reported": 0.6937,
+    "archived": 0.6936736751440857,
+    "difference": 2.6324855914250378e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km + 1.28 km buffer F1 CI lower",
+    "reported": 0.5609,
+    "archived": 0.5609125469506098,
+    "difference": 1.2546950609815255e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block512_buffer128_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 5.12 km + 1.28 km buffer F1 CI upper",
+    "reported": 0.715,
+    "archived": 0.7149859476440359,
+    "difference": 1.4052355964078167e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_block512_buffer128_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 Western leave-region-out test groups",
+    "reported": 22.0,
+    "archived": 22.0,
+    "difference": 0.0,
+    "tolerance": 0,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 Western leave-region-out OA point estimate",
+    "reported": 0.8018,
+    "archived": 0.8017597878698433,
+    "difference": 4.0212130156702663e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 Western leave-region-out OA CI lower",
+    "reported": 0.6741,
+    "archived": 0.6740639738997619,
+    "difference": 3.602610023811792e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_loro_west_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 Western leave-region-out OA CI upper",
+    "reported": 0.8887,
+    "archived": 0.8887231619583101,
+    "difference": 2.3161958310091713e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_loro_west_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 Western leave-region-out mIoU point estimate",
+    "reported": 0.4297,
+    "archived": 0.4296562093874574,
+    "difference": 4.379061254261574e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 Western leave-region-out mIoU CI lower",
+    "reported": 0.3244,
+    "archived": 0.3243559151578127,
+    "difference": 4.408484218731967e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_loro_west_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 Western leave-region-out mIoU CI upper",
+    "reported": 0.5294,
+    "archived": 0.5294495073549634,
+    "difference": 4.950735496345171e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_loro_west_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 Western leave-region-out F1 point estimate",
+    "reported": 0.5723,
+    "archived": 0.5723161438648676,
+    "difference": 1.6143864867590452e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_spatial_robustness.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 Western leave-region-out F1 CI lower",
+    "reported": 0.4405,
+    "archived": 0.44046683019608457,
+    "difference": 3.316980391543378e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_loro_west_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table 9 Western leave-region-out F1 CI upper",
+    "reported": 0.6702,
+    "archived": 0.6702279361639205,
+    "difference": 2.7936163920494472e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\ours_loro_west_seed42\\metrics.json",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Proposed model OA mean",
+    "reported": 0.8772,
+    "archived": 0.8771974188416133,
+    "difference": 2.581158386694149e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Proposed model OA SD",
+    "reported": 0.0019,
+    "archived": 0.0019089134464672,
+    "difference": 8.913446467199949e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Proposed model mIoU mean",
+    "reported": 0.5866,
+    "archived": 0.5866118127148917,
+    "difference": 1.1812714891701326e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Proposed model mIoU SD",
+    "reported": 0.0071,
+    "archived": 0.0070890234833897,
+    "difference": 1.097651661030076e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Proposed model F1 mean",
+    "reported": 0.7264,
+    "archived": 0.7264168856481822,
+    "difference": 1.688564818214111e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Proposed model F1 SD",
+    "reported": 0.0065,
+    "archived": 0.006504759425498,
+    "difference": 4.759425498000562e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 CNN OA mean",
+    "reported": 0.8679,
+    "archived": 0.867859081588953,
+    "difference": 4.0918411047030645e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 CNN OA SD",
+    "reported": 0.0012,
+    "archived": 0.0011524327375432,
+    "difference": 4.756726245679988e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 CNN mIoU mean",
+    "reported": 0.5697,
+    "archived": 0.5696569021428782,
+    "difference": 4.30978571217544e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 CNN mIoU SD",
+    "reported": 0.0012,
+    "archived": 0.0011518945664762,
+    "difference": 4.810543352379987e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 CNN F1 mean",
+    "reported": 0.7115,
+    "archived": 0.7115476820111509,
+    "difference": 4.768201115090687e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 CNN F1 SD",
+    "reported": 0.0014,
+    "archived": 0.0013953134190677,
+    "difference": 4.686580932299934e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCNN (20 epochs) OA mean",
+    "reported": 0.8721,
+    "archived": 0.8720536725005482,
+    "difference": 4.632749945177039e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCNN (20 epochs) OA SD",
+    "reported": 0.002,
+    "archived": 0.002043494575503,
+    "difference": 4.3494575503000114e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCNN (20 epochs) mIoU mean",
+    "reported": 0.5776,
+    "archived": 0.5775579780851203,
+    "difference": 4.2021914879675215e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCNN (20 epochs) mIoU SD",
+    "reported": 0.0087,
+    "archived": 0.0087382744424013,
+    "difference": 3.8274442401300957e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCNN (20 epochs) F1 mean",
+    "reported": 0.7189,
+    "archived": 0.718900003835825,
+    "difference": 3.835824990972014e-09,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCNN (20 epochs) F1 SD",
+    "reported": 0.0075,
+    "archived": 0.0074806658422051,
+    "difference": 1.9334157794899734e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Transformer OA mean",
+    "reported": 0.869,
+    "archived": 0.869036087003573,
+    "difference": 3.6087003573048726e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Transformer OA SD",
+    "reported": 0.0025,
+    "archived": 0.0024714054385544,
+    "difference": 2.8594561445599923e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Transformer mIoU mean",
+    "reported": 0.5672,
+    "archived": 0.5672209113276092,
+    "difference": 2.0911327609174357e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Transformer mIoU SD",
+    "reported": 0.009,
+    "archived": 0.0089943624003882,
+    "difference": 5.6375996117987576e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Transformer F1 mean",
+    "reported": 0.7097,
+    "archived": 0.7096949635527953,
+    "difference": 5.036447204731509e-06,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 Transformer F1 SD",
+    "reported": 0.0077,
+    "archived": 0.007711844612583,
+    "difference": 1.1844612582999521e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCN-ResNet50 OA mean",
+    "reported": 0.8185,
+    "archived": 0.8184700729580922,
+    "difference": 2.9927041907851226e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCN-ResNet50 OA SD",
+    "reported": 0.0014,
+    "archived": 0.0014116216486138,
+    "difference": 1.162164861380011e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCN-ResNet50 mIoU mean",
+    "reported": 0.4283,
+    "archived": 0.4282864193640116,
+    "difference": 1.3580635988441614e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCN-ResNet50 mIoU SD",
+    "reported": 0.0042,
+    "archived": 0.0042240075514588,
+    "difference": 2.40075514588e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCN-ResNet50 F1 mean",
+    "reported": 0.5771,
+    "archived": 0.5770646122163781,
+    "difference": 3.5387783621887436e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 FCN-ResNet50 F1 SD",
+    "reported": 0.0049,
+    "archived": 0.00488968529791,
+    "difference": 1.0314702089999836e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 VGG-UNet-Transformer OA mean",
+    "reported": 0.8464,
+    "archived": 0.8464356952684251,
+    "difference": 3.569526842506221e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 VGG-UNet-Transformer OA SD",
+    "reported": 0.0202,
+    "archived": 0.0201528772333404,
+    "difference": 4.7122766659600523e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 VGG-UNet-Transformer mIoU mean",
+    "reported": 0.4917,
+    "archived": 0.4916774640754315,
+    "difference": 2.2535924568523047e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 VGG-UNet-Transformer mIoU SD",
+    "reported": 0.0579,
+    "archived": 0.0578527949789893,
+    "difference": 4.7205021010701675e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 VGG-UNet-Transformer F1 mean",
+    "reported": 0.6603,
+    "archived": 0.6603216874182464,
+    "difference": 2.1687418246374435e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  },
+  {
+    "location": "Table S3 VGG-UNet-Transformer F1 SD",
+    "reported": 0.0224,
+    "archived": 0.0223741872036287,
+    "difference": 2.5812796371298824e-05,
+    "tolerance": 5.1e-05,
+    "source": "outputs\\full\\eight_class_review_revision_20260801\\final_results\\table_multiseed_summary.csv",
+    "status": "PASS"
+  }
+]

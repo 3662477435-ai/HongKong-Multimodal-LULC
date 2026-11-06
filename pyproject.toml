@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hk-multimodal-landuse"
+version = "0.1.0"
+description = "Sentinel-1/2 + OSM text semantic segmentation for Hong Kong land use"
+requires-python = ">=3.11"
+dependencies = [
+  "geopandas>=1.0",
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "PyYAML>=6.0",
+  "rasterio>=1.3",
+  "scikit-learn>=1.4",
+  "shapely>=2.0",
+  "torch>=2.2",
+  "torchvision>=0.17",
+  "scipy>=1.11",
+  "matplotlib>=3.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

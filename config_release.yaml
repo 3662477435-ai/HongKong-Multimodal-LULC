@@ -1,0 +1,81 @@
+paths:
+  image: data/inputs/sentinel1_sentinel2_10m.tif
+  blu: data/raw/BLU.tif
+  poi: data/raw/osm_poi.gpkg
+  aoi: data/raw/osm_aoi.gpkg
+  osm_poi_raster: data/inputs/osm_poi_count_14cat_10m.tif
+  osm_aoi_raster: data/inputs/osm_aoi_labels_10m.tif
+  highres_aligned: artifacts/full/prepared/highres_rgb_10m.tif
+  nighttime_aligned: artifacts/full/prepared/viirs_10m.tif
+  building_height_dir: data/raw/building_height
+  building_function_source: data/raw/building_function.shp
+  building_height_vector: artifacts/full/cleaned/buildings_height_merged_clipped.gpkg
+  building_aligned: artifacts/full/prepared/building_height_function_14band_10m.tif
+  roads_dir: data/raw/osm_roads
+  roads_aligned: artifacts/full/prepared/road_features_13band_10m.tif
+  cleaned_dir: artifacts/full/cleaned
+  prepared_dir: artifacts/full/prepared
+  output_dir: outputs/full
+  labels_leaf14: artifacts/full/prepared/labels_leaf14.tif
+  labels_10class: artifacts/full/prepared/labels_10class.tif
+  blu_aligned_raw: artifacts/full/prepared/blu_aligned_raw.tif
+data:
+  patch_size: 128
+  spatial_block_size: 512
+  min_label_fraction: 0.1
+  train_fraction: 0.7
+  val_fraction: 0.15
+  test_fraction: 0.15
+  max_text_tokens: 96
+  min_aoi_area_m2: 100.0
+  split_search_trials: 1000
+  normalization_sample_stride: 4
+  write_clean_csv: false
+  manifest_name: manifest_hier_v2.csv
+  vocab_name: vocab_hier_v2.json
+  normalization_name: normalization_hier_v2.json
+  seed: 42
+light_experiment:
+  enabled: false
+  max_train_patches: 384
+  max_val_patches: 96
+  max_test_patches: 96
+  min_patches_per_class: 12
+model:
+  architecture: hierarchical_swin_soft_route
+  pretrained: true
+  fpn_channels: 128
+  text_dim: 128
+  text_heads: 4
+  text_layers: 2
+  dropout: 0.1
+  separate_optical_indices: false
+  modalities:
+  - s2
+  - s1
+  - highres
+  - nighttime
+  - building
+  - roads
+  - poi
+  - aoi
+  - text
+train:
+  stage_epochs:
+  - 2
+  - 2
+  - 3
+  - 5
+  batch_size: 2
+  learning_rate: 0.0002
+  weight_decay: 0.0001
+  num_workers: 0
+  dice_weight: 0.3
+  coarse_weight: 0.5
+  weak_weight: 0.05
+  aoi_conflict_weight: 0.3
+  class_weight_power: 0.5
+  max_class_weight: 6.0
+  amp: true
+  amp_dtype: bfloat16
+  seed: 42

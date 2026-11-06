@@ -1,0 +1,5 @@
+# Data Availability — deposit draft
+
+The original and processed study data are inventoried in data_manifest.csv. The deposit draft contains the exact Sentinel-1/2 analysis mosaic, aligned VIIRS and OSM-derived input layers, spatial partitions, normalization parameters, semantic vocabularies, archived evaluation outputs and source tables. OpenStreetMap-derived material is attributed to OpenStreetMap contributors and subject to the Open Database License. Third-party Google Earth imagery and mixed-source building features require provider-specific access/redistribution verification; their checksums and acquisition routes are documented in DATA_ACCESS.md. Model checkpoints and custom code are inventoried in model_registry.json. A public record URL and DOI must be inserted after actual publication; this document does not assert that publication has occurred.
+
+中文核对：所有第三方数据均保留来源与条款，不统一改授权；Google Earth RGB 和建筑混合特征暂不进入公开压缩包；CSDI 标签按政府来源署名及原条款整理。原创代码 MIT、原创模型和结果 CC BY 4.0 已由作者确认；仍需核对第三方再分发条件及实际发布账号。
