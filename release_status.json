@@ -1,5 +1,5 @@
 {
-  "status": "published_github_release",
+  "status": "zenodo_data_upload_in_progress",
   "public_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC",
   "doi": null,
   "main_models": 9,
@@ -16,9 +16,12 @@
   ],
   "deposit_platform": "GitHub Releases",
   "github_account": "3662477435-ai",
-  "code_license": "MIT",
+  "code_license": "CC-BY-4.0",
   "original_models_results_license": "CC-BY-4.0",
   "deposit_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0",
   "public_asset_count": 10,
-  "publication_verified": true
+  "publication_verified": true,
+  "reserved_data_doi": "10.5281/zenodo.24137833",
+  "zenodo_publication_verified": false,
+  "legacy_github_assets_retained": true
 }

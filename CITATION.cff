@@ -1,16 +1,12 @@
 cff-version: 1.2.0
-message: If you use these research assets, cite this tagged GitHub release. No DOI
-  has been assigned.
-title: 'Urban-context residual learning for multimodal land use/land cover mapping
-  in high-density mountainous coastal cities: data, code and trained models'
+message: 'Cite this code repository. The separate dataset DOI is reserved but not yet published.'
+title: 'Urban-context residual learning for multimodal land use/land cover mapping: analysis code'
 authors:
 - family-names: Liu
   given-names: Yufeng
-  affiliation: Faculty of Geographical Science, Beijing Normal University, Beijing
-    100875, China
+  affiliation: Faculty of Geographical Science, Beijing Normal University
 - family-names: Zhang
   given-names: Hongsheng
-  affiliation: Department of Geography, The University of Hong Kong, Hong Kong, China
-version: 1.0.0
-url: https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0
-date-released: '2026-11-06'
+  affiliation: Department of Geography, The University of Hong Kong
+url: https://github.com/3662477435-ai/HongKong-Multimodal-LULC
+license: CC-BY-4.0

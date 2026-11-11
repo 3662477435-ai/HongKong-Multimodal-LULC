@@ -12,7 +12,7 @@
       "affiliation": "Department of Geography, The University of Hong Kong, Hong Kong, China"
     }
   ],
-  "resource_type": "dataset",
+  "resource_type": "software",
   "keywords": [
     "Hong Kong",
     "land use land cover",
@@ -29,11 +29,13 @@
   "deposit_url": "https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0",
   "license": "CC-BY-4.0",
   "status": "published_github_release",
-  "rights_note": "Author approved MIT / CC BY 4.0 on 2026-11-06. No relicensing of third-party data or pretrained components; see LICENSE_STATUS.md and THIRD_PARTY_NOTICES.md.",
+  "rights_note": "Current code terms requested by the author on 2026-11-11; see LICENSE_SCOPE.md.",
   "deposit_platform": "GitHub Releases",
   "github_account": "3662477435-ai",
-  "code_license": "MIT",
-  "license_scope": "CC BY 4.0 applies only to original model contributions and results; original code is MIT; third-party components retain their terms.",
+  "code_license": "CC-BY-4.0",
+  "license_scope": "Current original code and documentation: CC BY 4.0. Original data/model/result contributions: CC BY 4.0. Third-party terms remain applicable; historical MIT grants remain valid for earlier code versions.",
   "figshare_status": "unpublished_draft_publication_failed",
-  "publication_verified": true
+  "publication_verified": true,
+  "reserved_data_doi": "10.5281/zenodo.24137833",
+  "zenodo_status": "upload_in_progress_not_published"
 }
