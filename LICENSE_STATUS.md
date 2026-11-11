@@ -1,15 +1,18 @@
 # Rights and license status
 
-Author-approved on 2026-11-06:
+Author-requested current-version terms, 2026-11-11:
 
-- Original code: MIT (LICENSE).
-- Original trained-model contributions and results: CC BY 4.0
-  (LICENSE-MODELS-RESULTS.md).
-- Third-party inputs and pretrained components: retain their original terms;
-  no blanket license is asserted over the mixed-source deposit.
+- Original code and documentation: CC BY 4.0 (LICENSE and LICENSE_SCOPE.md).
+- Original trained-model contributions, data contributions and results: CC BY 4.0.
+- Third-party data, databases, dependencies and pretrained components: their
+  original terms and attribution remain in effect (THIRD_PARTY_NOTICES.md).
 
-OSM-derived databases retain ODbL 1.0. Sentinel, VIIRS and CSDI inputs retain
-their provider terms and attribution; see THIRD_PARTY_NOTICES.md.
-Google Earth RGB and mixed 3D-GloBFP/SinoBF-1 building features are withheld
-pending component-specific redistribution verification. An original model
-license does not extinguish any upstream pretrained-component restrictions.
+OSM-derived databases retain ODbL 1.0; Sentinel, VIIRS and HKSAR Government/CSDI
+inputs retain the applicable provider terms. Google Earth RGB and the mixed
+3D-GloBFP/SinoBF-1 building stack remain withheld pending redistribution
+verification. CC BY 4.0 is not asserted over rights held by other parties.
+
+Earlier MIT-licensed code versions retain their earlier grant. The data DOI is
+currently reserved, not yet published: 10.5281/zenodo.24137833. Existing GitHub
+Release data attachments will be retained until the Zenodo replacement is public
+and verified, to avoid interrupting access.
