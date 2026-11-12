@@ -150,7 +150,7 @@ def run_epoch(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Train paper semantic-segmentation comparators.")
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     parser.add_argument(
         "--model",
         choices=("cnn", "fcnn", "transformer", "fcn_resnet50", "vgg_unet_transformer"),

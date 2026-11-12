@@ -33,7 +33,7 @@ def class_boundary(labels: np.ndarray, class_id: int) -> np.ndarray:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     parser.add_argument("--checkpoint", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--manifest-name", default="manifest_hier_v2.csv")

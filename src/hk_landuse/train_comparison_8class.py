@@ -225,7 +225,7 @@ def optimizer_with_backbone_rate(model, backbone_rate: float):
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Train an eight-class full-modal comparator.")
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     parser.add_argument(
         "--model",
         choices=(

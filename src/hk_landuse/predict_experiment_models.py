@@ -307,7 +307,7 @@ def write_prediction(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Write full-area maps for the final three-model experiment.")
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     parser.add_argument("--main-checkpoint", required=True, type=Path)
     parser.add_argument("--fcn-checkpoint", required=True, type=Path)
     parser.add_argument("--vgg-checkpoint", required=True, type=Path)

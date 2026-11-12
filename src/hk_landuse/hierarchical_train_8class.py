@@ -212,7 +212,7 @@ def selection_score(metrics: dict, stage: str) -> float:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Train the eight-class soft-routed model.")
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     parser.add_argument("--run-name", required=True)
     parser.add_argument("--stage-epochs", default="1,1,2,10")
     parser.add_argument("--learning-rate", type=float, default=None)

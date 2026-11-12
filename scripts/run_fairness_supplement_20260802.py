@@ -66,7 +66,7 @@ class Runner:
 def train_commands(repo: Path):
     python = sys.executable
     base = [python, "-m", "hk_landuse.train_comparison_8class",
-            "--config", "config_hierarchical.yaml", "--modalities", ALL,
+            "--config", "config_release.yaml", "--modalities", ALL,
             "--num-workers", "0", "--seed", "42"]
     return (
         (
@@ -139,7 +139,7 @@ def main() -> None:
     runner.run(
         "expected_gradients_full128",
         [sys.executable, "-m", "hk_landuse.model_expected_gradients_fullpatch_8class",
-         "--config", "config_hierarchical.yaml",
+         "--config", "config_release.yaml",
          "--checkpoint", str(repo / "outputs/full/eight_class_20260725/ours_fcnn_hierarchy_semantic_seed42/best_final.pt"),
          "--output-dir", str(expected_dir), "--samples-per-class", "10",
          "--background-size", "8", "--patch-size", "128", "--aggregation-window", "49",
@@ -173,7 +173,7 @@ def main() -> None:
     runner.run(
         "profile_models",
         [sys.executable, "-m", "hk_landuse.profile_fairness_models_8class",
-         "--config", "config_hierarchical.yaml", "--specs", str(specs_path),
+         "--config", "config_release.yaml", "--specs", str(specs_path),
          "--output-dir", str(profile_dir), "--warmup", "30", "--repeats", "100"],
         profile_dir / "model_complexity_and_inference_speed.csv",
     )

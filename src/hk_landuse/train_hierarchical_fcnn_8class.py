@@ -232,7 +232,7 @@ def set_trainability(model: HierarchicalMultiModalFCNN, stage: str) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     parser.add_argument("--baseline-checkpoint", required=True)
     parser.add_argument("--run-name", required=True)
     parser.add_argument("--stage-epochs", default="8,8,12")

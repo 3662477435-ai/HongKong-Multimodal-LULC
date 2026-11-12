@@ -168,7 +168,7 @@ def _write_features(height: gpd.GeoDataFrame, reference_path: str, output: Path)
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Merge height tiles and build height-aware 10 m features.")
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     args = parser.parse_args()
     cfg = load_config(args.config)
     vector_output = Path(cfg["paths"]["building_height_vector"])

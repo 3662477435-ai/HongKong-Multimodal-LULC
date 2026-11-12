@@ -44,7 +44,7 @@ def calibration(log_probs: torch.Tensor, target: torch.Tensor, bins: int = 15) -
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     parser.add_argument(
         "--checkpoint",
         type=Path,

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: 'Cite this code repository. The separate dataset DOI is reserved but not yet published.'
+message: 'Cite this analysis-code repository; cite the separately archived dataset independently.'
 title: 'Urban-context residual learning for multimodal land use/land cover mapping: analysis code'
 authors:
 - family-names: Liu

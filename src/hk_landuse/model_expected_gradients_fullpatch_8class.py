@@ -203,7 +203,7 @@ def _plot_text(text_class: pd.DataFrame, output: Path) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", type=Path, default=Path("config_hierarchical.yaml"))
+    parser.add_argument("--config", type=Path, default=Path("config_release.yaml"))
     parser.add_argument("--checkpoint", type=Path, required=True)
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--samples-per-class", type=int, default=10)

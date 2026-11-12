@@ -22,11 +22,11 @@ def main():
   candidates=[]
   for lr in LRS:
    name=f'{a.model}_lr{lr}_seed42'; out=root/name
-   if not (out/'metrics.json').exists(): call([a.python,'-u','-m','hk_landuse.train_comparison_8class','--config','config_hierarchical.yaml','--model',a.model,'--run-name',f'{PREFIX}/{name}','--epochs','47','--patience','0','--batch-size','4','--num-workers','0','--seed','42','--modalities',MODALITIES,'--backbone-learning-rate',lr,'--manifest-name','manifest_hier_v2.csv','--vocab-name','vocab_hier_v2.json','--normalization-name','normalization_hier_v2.json'],log)
+   if not (out/'metrics.json').exists(): call([a.python,'-u','-m','hk_landuse.train_comparison_8class','--config','config_release.yaml','--model',a.model,'--run-name',f'{PREFIX}/{name}','--epochs','47','--patience','0','--batch-size','4','--num-workers','0','--seed','42','--modalities',MODALITIES,'--backbone-learning-rate',lr,'--manifest-name','manifest_hier_v2.csv','--vocab-name','vocab_hier_v2.json','--normalization-name','normalization_hier_v2.json'],log)
    candidates.append((score(out/'metrics.json'),lr,out/'best_model.pt'))
   _, best_lr, best_ckpt=max(candidates)
   for seed in (43,44):
    name=f'{a.model}_lr{best_lr}_seed{seed}';out=root/name
-   if not (out/'metrics.json').exists(): call([a.python,'-u','-m','hk_landuse.train_comparison_8class','--config','config_hierarchical.yaml','--model',a.model,'--run-name',f'{PREFIX}/{name}','--epochs','47','--patience','0','--batch-size','4','--num-workers','0','--seed',str(seed),'--modalities',MODALITIES,'--backbone-learning-rate',best_lr,'--manifest-name','manifest_hier_v2.csv','--vocab-name','vocab_hier_v2.json','--normalization-name','normalization_hier_v2.json'],log)
+   if not (out/'metrics.json').exists(): call([a.python,'-u','-m','hk_landuse.train_comparison_8class','--config','config_release.yaml','--model',a.model,'--run-name',f'{PREFIX}/{name}','--epochs','47','--patience','0','--batch-size','4','--num-workers','0','--seed',str(seed),'--modalities',MODALITIES,'--backbone-learning-rate',best_lr,'--manifest-name','manifest_hier_v2.csv','--vocab-name','vocab_hier_v2.json','--normalization-name','normalization_hier_v2.json'],log)
   (root/f'{a.model}_selection.json').write_text(json.dumps({'selected_backbone_lr':best_lr,'seed42_checkpoint':str(best_ckpt),'validation_candidates':[(x,y) for x,y,_ in candidates]},indent=2),encoding='utf8')
 if __name__=='__main__': main()

@@ -47,7 +47,7 @@ def predict(model, hierarchical: bool, batch: dict[str, torch.Tensor], device: t
 
 def main() -> None:
     p = argparse.ArgumentParser()
-    p.add_argument("--config", default="config_hierarchical.yaml")
+    p.add_argument("--config", default="config_release.yaml")
     p.add_argument("--output", type=Path, required=True)
     p.add_argument("--batch-size", type=int, default=2)
     args = p.parse_args()

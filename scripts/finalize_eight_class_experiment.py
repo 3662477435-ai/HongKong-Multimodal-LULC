@@ -30,7 +30,7 @@ def main() -> None:
     ], repo)
     run([
         sys.executable, "-m", "hk_landuse.predict_experiment_models_8class",
-        "--config", "config_hierarchical.yaml",
+        "--config", "config_release.yaml",
         "--experiment-root", str(root),
         "--output-dir", str(maps),
         "--seed", "42",

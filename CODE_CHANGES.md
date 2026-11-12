@@ -1,3 +1,0 @@
-# Packaging changes
-
-Original project files were not changed for packaging. In this release copy, config.py resolves all configured paths relative to the config file. Machine-specific project paths in text files were replaced with '.'; external source locations were replaced by explicit acquisition targets. Model architecture, weights, losses, samplers, class mapping and numeric metrics were not modified. run_release.py is a new evaluation/reproduction convenience entry point. Release dependencies add torchvision, scipy and matplotlib; the pandas lower bound is aligned with the observed working 2.0 environment. This is not a tested lockfile.

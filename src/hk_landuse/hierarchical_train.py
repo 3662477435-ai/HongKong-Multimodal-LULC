@@ -253,7 +253,7 @@ def selection_score(metrics: dict, stage: str) -> float:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Sequential soft-routed hierarchical training.")
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     parser.add_argument("--device", choices=("cpu", "cuda"), default=None)
     parser.add_argument("--run-name", default="hierarchical_light")
     parser.add_argument("--stage-epochs", default=None, help="Override, e.g. 2,2,3,5")

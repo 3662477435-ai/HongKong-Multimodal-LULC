@@ -39,7 +39,7 @@ def _assert_grid(source, reference) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Pack aligned OSM roads into compact 13-band features.")
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     args = parser.parse_args()
     cfg = load_config(args.config)
     root = Path(cfg["paths"]["roads_dir"])

@@ -15,7 +15,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Transfer the optimized 32-pixel spatial split to 128-pixel neural patches."
     )
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     parser.add_argument("--split-manifest", default="manifest_blocks32.csv")
     args = parser.parse_args()
     cfg = load_config(args.config)

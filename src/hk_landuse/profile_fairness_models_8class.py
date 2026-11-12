@@ -103,7 +103,7 @@ def _profile_one(model, inputs, ours, warmup, repeats, device):
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", type=Path, default=Path("config_hierarchical.yaml"))
+    parser.add_argument("--config", type=Path, default=Path("config_release.yaml"))
     parser.add_argument("--specs", type=Path, required=True)
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--warmup", type=int, default=30)

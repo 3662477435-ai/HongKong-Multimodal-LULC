@@ -32,7 +32,7 @@ def command(repo: Path, model: str, variant: str, seed: int) -> list[str]:
     if model == "ours":
         return [
             sys.executable, "-m", "hk_landuse.hierarchical_train_8class",
-            "--config", "config_hierarchical.yaml",
+            "--config", "config_release.yaml",
             "--run-name", run_name,
             "--stage-epochs", "1,1,2,10",
             "--patience", "3",
@@ -45,7 +45,7 @@ def command(repo: Path, model: str, variant: str, seed: int) -> list[str]:
     patience = "5" if variant == "full" else "3"
     return [
         sys.executable, "-m", "hk_landuse.train_comparison_8class",
-        "--config", "config_hierarchical.yaml",
+        "--config", "config_release.yaml",
         "--model", model,
         "--run-name", run_name,
         "--epochs", epochs,

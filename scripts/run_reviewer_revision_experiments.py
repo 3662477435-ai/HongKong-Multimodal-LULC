@@ -92,7 +92,7 @@ class Runner:
         batch = "4" if model in ("cnn", "fcnn", "transformer") else "2"
         command = [
             sys.executable, "-m", "hk_landuse.train_comparison_8class",
-            "--config", "config_hierarchical.yaml",
+            "--config", "config_release.yaml",
             "--model", model,
             "--run-name", run_name,
             "--epochs", "20",
@@ -124,7 +124,7 @@ class Runner:
         train_run = f"{ROOT_NAME}/{train_name}"
         train_out = self.repo / "outputs" / "full" / train_run
         common = [
-            "--config", "config_hierarchical.yaml",
+            "--config", "config_release.yaml",
             "--baseline-checkpoint", str(baseline),
             "--seed", str(seed),
             "--batch-size", "4",

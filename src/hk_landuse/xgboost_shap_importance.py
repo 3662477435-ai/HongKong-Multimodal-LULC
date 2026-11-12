@@ -566,7 +566,7 @@ def run(args: argparse.Namespace) -> None:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="XGBoost-TreeSHAP audit of all hierarchical-model inputs")
     parser.add_argument("--project-root", default=".")
-    parser.add_argument("--config", default="config_hierarchical.yaml")
+    parser.add_argument("--config", default="config_release.yaml")
     parser.add_argument(
         "--output-dir",
         default="outputs/full/final_height_experiment/xgboost_shap_importance",

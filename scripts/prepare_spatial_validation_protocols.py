@@ -175,7 +175,7 @@ def write_protocol(
 
 
 def main() -> None:
-    cfg = load_config(REPO / "config_hierarchical.yaml")
+    cfg = load_config(REPO / "config_release.yaml")
     prepared = Path(cfg["paths"]["prepared_dir"])
     if not prepared.is_absolute():
         prepared = REPO / prepared
