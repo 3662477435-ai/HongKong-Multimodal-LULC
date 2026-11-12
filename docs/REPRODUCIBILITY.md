@@ -117,10 +117,11 @@ intervals matching final Table 9; the later 100-draw CSV is historical. Audit
 records and numerical outputs remain in archive 01 rather than being
 duplicated in the code repository.
 
-RGB interfaces and original model structures are retained. The manuscript's
-Table 1 currently needs an explicit RGB source row. Exact imagery dates,
-component release provenance and the CSDI BLU accession still need author
-reconciliation. Full retraining and an exhaustive audit of supplementary
+RGB interfaces and original model structures are retained. The final manuscript
+and Table 1 describe Google Earth RGB imagery as predominantly acquired in 2025;
+the repository's source metadata use the same year. Exact tile-level imagery
+dates, component release provenance and the CSDI BLU accession still need to be
+documented from acquisition records. Full retraining and an exhaustive audit of supplementary
 claims were not performed by this cleanup.
 
 ## Licences and journal policy

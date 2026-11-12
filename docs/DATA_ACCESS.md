@@ -6,7 +6,7 @@ The original model code and checkpoint structures retain the three-channel high-
 
 - Required file: `artifacts/full/prepared/highres_rgb_10m.tif`.
 - Source: Google Earth imagery service, https://earth.google.com/ .
-- Existing study provenance records the imagery as mainly 2021; the precise acquisition dates and imagery-provider credits still need to be reconciled with the final manuscript.
+- As reported in the final manuscript, imagery over the study area was predominantly acquired in 2025. Exact tile-level acquisition dates and imagery-provider credits should be documented from the original acquisition records.
 - Provider conditions: https://www.google.com/help/terms_maps-earth/ and https://about.google/brand-resource-center/products-and-services/geo-guidelines/ .
 - SHA-256 of the exact local study raster: `2c5780d0914b32ab38c0e51ed81ab2e7565994bbb8548b2aac7c6e9d8b64d2d8` (108,732,513 bytes).
 - The raster and RGB-based local-comparison Figure 8 are not redistributed because permission to redistribute the imagery as a standalone research raster has not been established. Obtain imagery through the provider under its applicable conditions; this repository does not grant those rights or provide a bulk-download workaround.
