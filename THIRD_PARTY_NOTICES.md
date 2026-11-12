@@ -14,4 +14,6 @@ Contains modified Copernicus Sentinel data, 2025. Preserve Copernicus Sentinel t
 
 ## Withheld inputs
 
-Google Earth RGB and mixed 3D-GloBFP/SinoBF-1 building features remain local pending component-specific redistribution verification. An open-source code license for SinoBF-1 does not establish the license for every third-party source raster.
+Google Earth RGB imagery and the combined building-height/function raster are not distributed. The component providers are Google Earth (https://earth.google.com/), 3D-GloBFP (https://doi.org/10.5281/zenodo.15459025), and SinoBF-1 (https://doi.org/10.5281/zenodo.17844789; associated paper https://doi.org/10.1038/s41467-026-69589-5).
+
+Their redistribution or combined relicensing conditions have not been cleared for this release. This is not a blanket finding that the upstream datasets prohibit redistribution. Obtain source data through the providers under their terms; CC BY 4.0 applies only to the authors' own rights. See DATA_ACCESS.md for exact required filenames, checksums, provenance limits and the reproduction boundary.

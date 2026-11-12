@@ -6,7 +6,17 @@ Research assets for **Urban-context residual learning for multimodal land use/la
 
 **Code repository: https://github.com/3662477435-ai/HongKong-Multimodal-LULC**
 
-## Download data, model weights and final results
+## Separate data deposit
+
+Data, checkpoints and results are being prepared in Zenodo upload workspace
+[24140176](https://zenodo.org/uploads/24140176); this is not yet a public DOI.
+See [README_DATA.md](README_DATA.md) for the current whole-ZIP deposit and
+[DATA_ACCESS.md](DATA_ACCESS.md) for withheld Google Earth RGB and combined
+3D-GloBFP/SinoBF-1 building inputs. RGB interfaces and original weights are
+retained. Current original code/documentation use CC BY 4.0; see [LICENSE](LICENSE)
+and [LICENSE_SCOPE.md](LICENSE_SCOPE.md). Third-party terms remain applicable.
+
+## Historical download: data, model weights and final results
 
 Use the same repository's [Release v1.0.0](https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0) for the large files.
 See [GITHUB_RELEASE.md](GITHUB_RELEASE.md) for archive contents, checksums,

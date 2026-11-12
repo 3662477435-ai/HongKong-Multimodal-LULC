@@ -1,36 +1,29 @@
-# Separate data deposit (upload in progress)
+# Separate Zenodo data deposit
 
 Code: https://github.com/3662477435-ai/HongKong-Multimodal-LULC
 
-Reserved dataset DOI: **10.5281/zenodo.24137833**. This is not yet a published
-record or a working public download route. Do not cite it as available until
-publication is confirmed. The historical GitHub Release remains the download
-fallback during migration.
+Current upload workspace: https://zenodo.org/uploads/24140176 . This management
+link is not a public record or a verified DOI. Earlier draft 24137833 and the
+unpublished Figshare record are not this deposit's public access route.
 
-## Planned Zenodo contents
+See [README_DATA.md](README_DATA.md) for the four whole ZIP archives, their
+SHA-256 checksums, extraction instructions, original data sources and CC BY 4.0
+licence scope. Historical metadata inside the unchanged archives can refer to
+earlier publication attempts; the current README supersedes those locations.
 
-1. `01_results_tables_metadata.zip`: source tables, metrics, model registries,
-   data manifest, configuration, audits and access notes; no executable code.
-2. `02_selected_model_checkpoints.zip`: 83 selected study checkpoints.
-3. `03_open_provider_inputs_and_splits.zip`: shareable provider inputs, derived
-   rasters and saved spatial split/preparation metadata.
-4. `04_prediction_products_and_final_figures.zip`: regional predictions,
-   confidence products and public final English 600-dpi figures.
+RGB input interfaces and original checkpoint structures are retained. The
+Google Earth RGB raster and combined 3D-GloBFP/SinoBF-1 building stack are
+omitted because redistribution or combined relicensing conditions have not
+been cleared. Sources and lawful provider routes are in [DATA_ACCESS.md](DATA_ACCESS.md).
+Exact frozen-checkpoint inference needs both exact study rasters; archived
+confusion-matrix metrics do not.
 
-The three large archives retain their previously verified byte content. The
-Zenodo ZIPs are whole archives, not numbered GitHub parts. Clone this code
-repository, then extract all four archives into the clone. See README_DATA.md
-and SHA256SUMS_ZENODO.txt in the deposit for data access and integrity checks.
-`python run_release.py metrics` uses the extracted saved confusion matrices.
-The old `verify` command targets the historical combined package manifest,
-not the new separated data package.
+Download this deposit manually from its verified public file list after
+publication. The historical `scripts/download_zenodo_data.py` targets the
+previous draft and is not valid for this deposit. The original scripts and
+weights have not been changed by this documentation update.
 
-CC BY 4.0 applies to the authors' original contributions. Third-party source
-terms and pretrained-component terms remain applicable. Two input rasters and
-the RGB-based Figure 8 remain withheld pending redistribution verification;
-see DATA_ACCESS.md and THIRD_PARTY_NOTICES.md. Full-input inference requires
-lawful access to the same withheld rasters; none are silently substituted.
-
-GitHub data attachments will only be removed after the Zenodo replacement is
-public and verified. Historical Git history and earlier license grants remain
-unchanged.
+The existing [GitHub Release v1.0.0](https://github.com/3662477435-ai/HongKong-Multimodal-LULC/releases/tag/v1.0.0)
+remains a historical public download fallback. Its attachments have not been
+deleted. Update this page to the actual Zenodo DOI only after publication is
+verified.
